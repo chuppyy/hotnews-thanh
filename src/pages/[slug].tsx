@@ -29,8 +29,11 @@ export default function Page(data: any) {
       if (qcDivTaboo) {
         var newDiv = document.createElement('div');
         // Thêm div Banner inpage vào
-        newDiv.innerHTML = `
-          <div id="taboola-below-mid-article"></div>          
+        // newDiv.innerHTML = `
+        //   <div id="taboola-below-mid-article"></div>          
+        // `;
+          newDiv.innerHTML = `
+          <div data-type="_mgwidget" data-widget-id="${mgWidgetId1}"></div>           
         `;
         qcDivTaboo.appendChild(newDiv);
       }
