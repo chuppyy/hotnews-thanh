@@ -201,7 +201,7 @@ export default function Page(data: any) {
 {/* ============================= */}
 
 
-        {/* <div data-type="_mgwidget" data-widget-id={mgWidgetFeedId}></div>
+        <div data-type="_mgwidget" data-widget-id={mgWidgetFeedId}></div>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -210,7 +210,7 @@ export default function Page(data: any) {
             `,
           }}
           async
-        ></script> */}
+        ></script>
       </main>
       {/*<RewardedAd />*/}
     </>
