@@ -37,7 +37,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     }
   `}
 </Script>
-<Script defer src="https://cdn.adsconex.com/js/adsconex-banner-bw-feji-rl.js"  strategy="afterInteractive"></Script>
+<Script defer src="https://cdn.adsconex.com/js/adsconex-banner-bw-feji-rl.js"  strategy="beforeInteractive"></Script>
 
 
   {/* <!-- Metaconex tag (gtag.js) --> */}
