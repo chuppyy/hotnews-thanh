@@ -120,10 +120,10 @@ export default function Page(data: any) {
         }}
       />
 
-      <Script 
+      {/* <Script 
         src="https://cdn.adsconex.com/js/adsconex-banner-bw-feji-rl.js"  
         strategy="afterInteractive"         
-      />
+      /> */}
 
           <p className="mb-4 text-lg">Posted: {formatDate(article.dateTimeStart)}</p>
           {/* <ins
