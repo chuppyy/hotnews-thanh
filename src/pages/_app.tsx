@@ -9,8 +9,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-<script async src="https://cdn.unibotscdn.com/player/mvp/player.js"></script>
-<script async src="https://cdn.unibots.in/headerbidding/common/hb.js"></script>     
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>     
         
         {/* --- HẾT Mã FEJI (HEAD) --- */}
       </Head>
