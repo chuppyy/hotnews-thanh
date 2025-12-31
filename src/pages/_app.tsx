@@ -10,7 +10,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
 <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>     
-        
+        <script defer src="https://cdn.adsconex.com/js/adsconex-banner-bw-feji-rl.js"></script>
         {/* --- HẾT Mã FEJI (HEAD) --- */}
       </Head>
 {/* 🔥 TABOOLA SCRIPT — đặt ngoài HEAD */}
@@ -37,7 +37,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     }
   `}
 </Script>
-<Script defer src="https://cdn.adsconex.com/js/adsconex-banner-bw-feji-rl.js"  strategy="beforeInteractive"></Script>
+{/* <Script defer src="https://cdn.adsconex.com/js/adsconex-banner-bw-feji-rl.js"  strategy="beforeInteractive"></Script> */}
 
 
   {/* <!-- Metaconex tag (gtag.js) --> */}
